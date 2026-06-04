@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEJA VU BAR CAFFETTERIA – Menu</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: #F4EDE4;
+            color: #222;
+        }
+
+        header {
+            background: #3A2E2A;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 160px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .category {
+            background: #FFFFFF;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-left: 6px solid #C8A97E;
+        }
+
+        .category h2 {
+            margin-top: 0;
+            font-size: 22px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            font-weight: 600;
+            color: #3A2E2A;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ddd;
+            font-size: 17px;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .price {
+            font-weight: 600;
+            color: #3A2E2A;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .category {
+                padding: 18px;
+            }
+
+            .item {
+                font-size: 16px;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .price {
+                margin-top: 4px;
+                font-size: 17px;
+            }
+
+            header img {
+                max-width: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- Rinomina il file del logo come logo.jpg oppure cambia il nome qui -->
+    <img src="logo.jpg" alt="Logo Déjà Vu Bar Caffetteria">
+    <h1>DEJA VU BAR CAFFETTERIA</h1>
+</header>
+
+<div class="container">
+
+    <!-- Caffetteria -->
+    <div class="category">
+        <h2>☕ Caffetteria</h2>
+        <div class="item"><span>CAFFE'</span><span class="price">€ 1,30</span></div>
+        <div class="item"><span>CAFFE' CORRETTO</span><span class="price">€ 1,50</span></div>
+        <div class="item"><span>CAFFE' DECAFFEINATO</span><span class="price">€ 1,40</span></div>
+        <div class="item"><span>CAFFE' ORZO GINSENG PICCOLO</span><span class="price">€ 1,50</span></div>
+        <div class="item"><span>CAFFE' ORZO GINSENG GRANDE</span><span class="price">€ 1,60</span></div>
+        <div class="item"><span>CAFFE' SHAKERATO</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>CAFFE' SHAKERATO CORRETTO</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>MAROCCO</span><span class="price">€ 1,50</span></div>
+        <div class="item"><span>MAROCCO SOIA O AVENA</span><span class="price">€ 1,60</span></div>
+        <div class="item"><span>MAROCCO DECAFFEINATO</span><span class="price">€ 1,60</span></div>
+        <div class="item"><span>MAROCCO SOIA O AVENA DECA</span><span class="price">€ 1,70</span></div>
+        <div class="item"><span>CAPPUCCINO</span><span class="price">€ 1,60</span></div>
+        <div class="item"><span>CAPPUCCINO DECAFFEINATO</span><span class="price">€ 1,70</span></div>
+        <div class="item"><span>CAPPUCCINO ORZO GINSENG</span><span class="price">€ 1,70</span></div>
+        <div class="item"><span>CAPPUCCINO SOIA AVENA RISO ecc</span><span class="price">€ 1,80</span></div>
+        <div class="item"><span>CAPPUCCINO SOIA AVENA RISO DECA</span><span class="price">€ 1,90</span></div>
+        <div class="item"><span>LATTE MACCHIATO</span><span class="price">€ 2,00</span></div>
+        <div class="item"><span>LATTE BIANCO</span><span class="price">€ 1,80</span></div>
+        <div class="item"><span>LATTE SOIA MACCHIATO</span><span class="price">€ 2,20</span></div>
+        <div class="item"><span>LATTE SOIA AVENA ecc</span><span class="price">€ 2,00</span></div>
+        <div class="item"><span>BRIOCHE</span><span class="price">€ 1,40</span></div>
+        <div class="item"><span>BRIOCHE FARCITA</span><span class="price">€ 1,60</span></div>
+    </div>
+
+    <!-- Speciali -->
+    <div class="category">
+        <h2>✨ Speciali</h2>
+        <div class="item"><span>CREMA CAFFE' FREDDA</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>CREMA CAFFE' FREDDA GRANDE</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>CREMA CAFFE' CALDA</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>CREMA CAFFE' CALDA GRANDE</span><span class="price">€ 3,50</span></div>
+        <div class="item"><span>LATTE MENTA</span><span class="price">€ 1,80</span></div>
+    </div>
+
+    <!-- Spremute e succhi -->
+    <div class="category">
+        <h2>🍊 Spremute e succhi</h2>
+        <div class="item"><span>SPREMUTA ARANCIA</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>SPREMUTA MELAGRANA</span><span class="price">€ 4,50</span></div>
+        <div class="item"><span>SPREMUTA MISTA</span><span class="price">€ 4,50</span></div>
+        <div class="item"><span>SUCCHI DI FRUTTA</span><span class="price">€ 2,50</span></div>
+    </div>
+
+    <!-- Lattine e bottigliette -->
+    <div class="category">
+        <h2>🥤 Lattine e bottigliette</h2>
+        <div class="item"><span>COCA COLA, FANTA, SPRITE 33CL</span><span class="price">€ 2,00</span></div>
+        <div class="item"><span>RED BULL</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>INFUSI</span><span class="price">€ 2,50</span></div>
+    </div>
+
+    <!-- Acqua -->
+    <div class="category">
+        <h2>💧 Acqua</h2>
+        <div class="item"><span>BOTTIGLIA 0,50 L</span><span class="price">€ 1,00</span></div>
+        <div class="item"><span>BOTTIGLIA 1,5 L</span><span class="price">€ 1,50</span></div>
+        <div class="item"><span>BICCHIERE PICCOLO</span><span class="price">€ 0,20</span></div>
+        <div class="item"><span>BICCHIERE GRANDE</span><span class="price">€ 0,50</span></div>
+    </div>
+
+    <!-- Panini e toast -->
+    <div class="category">
+        <h2>🥪 Panini e toast</h2>
+        <div class="item"><span>TOAST</span><span class="price">€ 5,00</span></div>
+        <div class="item"><span>TOAST FARCITO</span><span class="price">€ 5,50</span></div>
+        <div class="item"><span>PANINI</span><span class="price">€ 5,00</span></div>
+        <div class="item"><span>PANINI FARCITI</span><span class="price">€ 6,00</span></div>
+        <div class="item"><span>PIADINA</span><span class="price">€ 5,00</span></div>
+        <div class="item"><span>PIADINA FARCITA</span><span class="price">€ 6,00</span></div>
+        <div class="item"><span>MINI TOAST</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>TRAMEZZINO</span><span class="price">€ 2,50</span></div>
+        <div class="item"><span>FOCACCIA SEMPLICE</span><span class="price">€ 1,20</span></div>
+        <div class="item"><span>FOCACCIA CON SALUMI</span><span class="price">€ 2,50</span></div>
+        <div class="item"><span>FOCACCIA FARCITA</span><span class="price">€ 3,00</span></div>
+    </div>
+
+    <!-- Insalatone -->
+    <div class="category">
+        <h2>🥗 Insalatone</h2>
+        <div class="item"><span>INSALATONA</span><span class="price">€ 8,00</span></div>
+    </div>
+
+    <!-- Primi e secondi -->
+    <div class="category">
+        <h2>🍽️ Primi e secondi</h2>
+        <div class="item"><span>PIATTO COMPLETO</span><span class="price">€ 9,00</span></div>
+        <div class="item"><span>PIATTO SENZA CONTORNO</span><span class="price">€ 8,00</span></div>
+    </div>
+
+    <!-- Aperitivi -->
+    <div class="category">
+        <h2>🍹 Aperitivi</h2>
+        <div class="item"><span>CRODINO</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>CAMPARI SODA E SIMILI</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>CALICE DI VINO</span><span class="price">€ 6,00</span></div>
+    </div>
+
+    <!-- Aperitivi miscelati -->
+    <div class="category">
+        <h2>🍸 Aperitivi miscelati</h2>
+        <div class="item"><span>CAMPARI SHAKERATO</span><span class="price">€ 7,00</span></div>
+        <div class="item"><span>NEGRONI</span><span class="price">€ 7,00</span></div>
+        <div class="item"><span>AMERICANO</span><span class="price">€ 7,00</span></div>
+    </div>
+
+    <!-- Vino bottiglia -->
+    <div class="category">
+        <h2>🍾 Vino bottiglia</h2>
+        <div class="item"><span>VINO ROSSO</span><span class="price">€ 15,00</span></div>
+        <div class="item"><span>VINO ROSSO</span><span class="price">€ 18,00</span></div>
+        <div class="item"><span>VINO SPUMANTE</span><span class="price">€ 12,00</span></div>
+        <div class="item"><span>VINO SPUMANTE</span><span class="price">€ 15,00</span></div>
+        <div class="item"><span>VINO BIANCO FERMO</span><span class="price">€ 12,00</span></div>
+        <div class="item"><span>VINO BIANCO FERMO</span><span class="price">€ 15,00</span></div>
+    </div>
+
+    <!-- Liquori -->
+    <div class="category">
+        <h2>🥃 Liquori</h2>
+        <div class="item"><span>AMARI</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>GRAPPE</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>WHISKY</span><span class="price">€ 4,00</span></div>
+        <div class="item"><span>WHISKY PREMIUM</span><span class="price">€ 5,00</span></div>
+    </div>
+
+    <!-- Birre in bottiglia -->
+    <div class="category">
+        <h2>🍺 Birre in bottiglia</h2>
+        <div class="item"><span>MORETTI</span><span class="price">€ 3,00</span></div>
+        <div class="item"><span>ALTRE IN BOTTIGLIA DA 33 cl.</span><span class="price">€ 4,00</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
