@@ -34,25 +34,18 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
-    background: var(--card);
-    padding: 15px;
+    width: 100%;
     text-align: center;
-    border-bottom: 1px solid #ccc;
-    box-shadow: 0 2px 6px var(--shadow);
-    z-index: 1000;
+    margin-bottom: 20px;
 }
-</style>
-</head>
 
-<body>
+header img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 
-<header style="width:100%; text-align:center; margin-bottom:20px;">
-    <img src="dejavu-esterno.jpg"
-         alt="Deja Vu Bar Caffetteria"
-         style="width:100%; max-height:300px; object-fit:cover; border-radius:8px;">
-</header>
 h1 {
     margin: 8px 0 0 0;
     font-size: 26px;
@@ -65,6 +58,14 @@ h1 {
     margin: 0 auto;
     padding: 20px;
 }
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="dejavu-esterno.jpg" alt="Deja Vu Bar Caffetteria">
+</header>
 
 .category {
     background: var(--card);
